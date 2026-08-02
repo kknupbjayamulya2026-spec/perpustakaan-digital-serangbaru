@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" fill="none">
+  <rect width="48" height="48" rx="12" fill="#0F766E"/>
+  <path d="M9 14.5C9 13.1193 10.1193 12 11.5 12H22C22.5523 12 23 12.4477 23 13V34C23 34.5523 22.5523 35 22 35H11.5C10.1193 35 9 33.8807 9 32.5V14.5Z" fill="#F8FAFC"/>
+  <path d="M39 14.5C39 13.1193 37.8807 12 36.5 12H26C25.4477 12 25 12.4477 25 13V34C25 34.5523 25.4477 35 26 35H36.5C37.8807 35 39 33.8807 39 32.5V14.5Z" fill="#14B8A6"/>
+  <path d="M23 13.6L24 13L25 13.6V34.4L24 35L23 34.4V13.6Z" fill="#0F766E"/>
+  <line x1="12.5" y1="17" x2="19.5" y2="17" stroke="#0F766E" stroke-width="1.4" stroke-linecap="round"/>
+  <line x1="12.5" y1="20.5" x2="19.5" y2="20.5" stroke="#0F766E" stroke-width="1.4" stroke-linecap="round"/>
+  <line x1="12.5" y1="24" x2="17.5" y2="24" stroke="#0F766E" stroke-width="1.4" stroke-linecap="round"/>
+  <line x1="28.5" y1="17" x2="35.5" y2="17" stroke="#F8FAFC" stroke-width="1.4" stroke-linecap="round" opacity="0.85"/>
+  <line x1="28.5" y1="20.5" x2="35.5" y2="20.5" stroke="#F8FAFC" stroke-width="1.4" stroke-linecap="round" opacity="0.85"/>
+  <line x1="28.5" y1="24" x2="33.5" y2="24" stroke="#F8FAFC" stroke-width="1.4" stroke-linecap="round" opacity="0.85"/>
+</svg>
