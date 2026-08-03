@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Perpustakaan Digital Serang Baru — Desa Jayamulya</title>
+<meta name="description" content="Perpustakaan Digital Kecamatan Serang Baru, dibuat oleh Desa Jayamulya untuk mendukung minat baca dan literasi masyarakat.">
+
+<!-- Google Fonts: Poppins -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,500&display=swap" rel="stylesheet">
+
+<!-- Font Awesome -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+<!-- Favicon -->
+<link rel="icon" type="image/svg+xml" href="assets/icons/logo.svg">
+
+<!-- Stylesheets -->
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+
+<a href="#main-content" class="skip-link">Lewati ke konten utama</a>
+
+<!-- ============ NAVBAR ============ -->
+<header class="navbar" id="navbar">
+  <div class="navbar__inner container">
+    <a href="#home" class="navbar__brand">
+      <img src="assets/icons/logo.svg" alt="Logo Perpustakaan Digital Jayamulya" class="navbar__logo">
+      <span class="navbar__brand-text">
+        <strong>Perpustakaan Digital</strong>
+        <small>Serang Baru &middot; Desa Jayamulya</small>
+      </span>
+    </a>
+
+    <nav class="navbar__nav" id="navMenu">
+      <ul class="navbar__menu">
+        <li><a href="#home" class="navbar__link active" data-nav>Home</a></li>
+        <li><a href="#profil-desa" class="navbar__link" data-nav>Profil Desa</a></li>
+        <li><a href="#visi-misi" class="navbar__link" data-nav>Visi &amp; Misi</a></li>
+        <li><a href="#galeri" class="navbar__link" data-nav>Galeri</a></li>
+        <li><a href="#buku" class="navbar__link" data-nav>Buku</a></li>
+        <li><a href="#lokasi" class="navbar__link" data-nav>Lokasi</a></li>
+      </ul>
+    </nav>
+
+    <button class="navbar__toggle" id="navToggle" aria-label="Buka menu navigasi" aria-expanded="false" aria-controls="navMenu">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<main id="main-content">
+
+  <!-- ============ HERO ============ -->
+  <section class="hero" id="home">
+    <div class="hero__bg" style="background-image:url('assets/images/hero-bg.jpg')"></div>
+    <div class="hero__overlay"></div>
+    <div class="container hero__content fade-in">
+      <span class="eyebrow eyebrow--light"><i class="fa-solid fa-book-open-reader"></i> Perpustakaan Digital Kecamatan Serang Baru</span>
+      <h1 class="hero__title">Selamat Datang di Perpustakaan Digital Serang Baru</h1>
+      <p class="hero__desc">
+        Perpustakaan digital ini merupakan hasil program kerja mahasiswa KKN Universitas Pelita Bangsa
+        yang dipersembahkan oleh Desa Jayamulya untuk mendukung semangat literasi dan minat baca
+        masyarakat Kecamatan Serang Baru — kapan saja, di mana saja, tanpa biaya.
+      </p>
+      <div class="hero__actions">
+        <a href="#buku" class="btn btn--primary">
+          <i class="fa-solid fa-book"></i> Lihat Koleksi
+        </a>
+        <a href="#profil-desa" class="btn btn--ghost">Kenali Desa Kami</a>
+      
+    </div>
+  </section>
+
+  <!-- ============ PROFIL DESA ============ -->
+  <section class="section" id="profil-desa">
+    <div class="container">
+      <div class="section__head fade-in">
+        <span class="eyebrow">Tentang Kami</span>
+        <h2 class="section__title">Profil Desa Jayamulya</h2>
+      </div>
+
+      <div class="profil-grid">
+        <div class="profil-grid__image fade-in">
+          <img src="assets/images/profil-desa.jpg" alt="Kegiatan musyawarah warga Desa Jayamulya" loading="lazy">
+          <div class="profil-grid__badge">
+            <i class="fa-solid fa-map-location-dot"></i>
+            <div>
+              <strong>Kec. Serang Baru</strong>
+              <small>Kabupaten Bekasi, Jawa Barat</small>
+            </div>
+          </div>
+        </div>
+
+        <div class="profil-grid__text fade-in">
+          <h3>Desa Literasi di Kecamatan Serang Baru</h3>
+          <p>
+            Desa Jayamulya adalah salah satu desa di Kecamatan Serang Baru, Kabupaten Bekasi,
+            Jawa Barat. Melalui program Kuliah Kerja Nyata (KKN) Universitas Pelita Bangsa tahun 2026,
+            desa ini menghadirkan Perpustakaan Digital sebagai wujud nyata dukungan terhadap
+            budaya literasi dan minat baca masyarakat.
+          </p>
+          <p>
+            Perpustakaan digital ini hadir agar warga Desa Jayamulya, pelajar, serta masyarakat
+            Kecamatan Serang Baru yang berkunjung dapat dengan mudah mengakses berbagai
+            bahan bacaan — mulai dari buku pelajaran, cerita anak, novel, hingga referensi umum —
+            kapan saja secara gratis dan tanpa batas.
+          </p>
+          <ul class="check-list">
+            <li><i class="fa-solid fa-circle-check"></i> Dikelola oleh Pemerintah Desa Jayamulya</li>
+            <li><i class="fa-solid fa-circle-check"></i> Diinisiasi oleh Mahasiswa KKN Universitas Pelita Bangsa 2026</li>
+            <li><i class="fa-solid fa-circle-check"></i> Terbuka untuk seluruh warga Kecamatan Serang Baru</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ VISI & MISI ============ -->
+  <section class="section section--tint" id="visi-misi">
+    <div class="container">
+      <div class="section__head fade-in">
+        <span class="eyebrow">Arah Pembangunan Desa</span>
+        <h2 class="section__title">Visi &amp; Misi</h2>
+      </div>
+
+      <div class="visi-card fade-in">
+        <i class="fa-solid fa-quote-left visi-card__icon"></i>
+        <p class="visi-card__text">
+          Peningkatan Kualitas Aparatur dan Pelayanan Bidang Pemerintahan, Pembangunan dan
+          Kemasyarakatan Desa Jayamulya yang Berkelanjutan.
+        </p>
+        <span class="visi-card__label">— Visi Desa Jayamulya</span>
+      </div>
+
+      <div class="misi-grid">
+        <article class="misi-card fade-in">
+          <div class="misi-card__num">01</div>
+          <i class="fa-solid fa-graduation-cap misi-card__icon"></i>
+          <h3>Kualitas Sumber Daya Manusia</h3>
+          <p>Mewujudkan kualitas sumber daya manusia Desa Jayamulya yang unggul dan berdaya saing.</p>
+        </article>
+        <article class="misi-card fade-in">
+          <div class="misi-card__num">02</div>
+          <i class="fa-solid fa-seedling misi-card__icon"></i>
+          <h3>Ekonomi Berbasis Pertanian</h3>
+          <p>Meningkatkan kesejahteraan sosial ekonomi masyarakat yang berbasis pertanian.</p>
+        </article>
+        <article class="misi-card fade-in">
+          <div class="misi-card__num">03</div>
+          <i class="fa-solid fa-tree misi-card__icon"></i>
+          <h3>Lingkungan Berkelanjutan</h3>
+          <p>Memelihara kesinambungan lingkungan dan pembangunan yang berkelanjutan.</p>
+        </article>
+        <article class="misi-card fade-in">
+          <div class="misi-card__num">04</div>
+          <i class="fa-solid fa-road misi-card__icon"></i>
+          <h3>Kinerja Pembangunan</h3>
+          <p>Meningkatkan kinerja pembangunan desa di segala bidang secara merata.</p>
+        </article>
+        <article class="misi-card fade-in">
+          <div class="misi-card__num">05</div>
+          <i class="fa-solid fa-people-roof misi-card__icon"></i>
+          <h3>Stabilitas Masyarakat</h3>
+          <p>Memelihara stabilitas kehidupan masyarakat yang aman, tertib, tentram, dan dinamis.</p>
+        </article>
+        <article class="misi-card fade-in">
+          <div class="misi-card__num">06</div>
+          <i class="fa-solid fa-landmark misi-card__icon"></i>
+          <h3>Aparatur Berwibawa</h3>
+          <p>Mewujudkan aparatur Pemerintah Desa yang berwibawa dan melayani sepenuh hati.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ GALERI ============ -->
+  <section class="section" id="galeri">
+    <div class="container">
+      <div class="section__head fade-in">
+        <span class="eyebrow">Dokumentasi</span>
+        <h2 class="section__title">Galeri Kegiatan Literasi KKN 2026</h2>
+        <p class="section__desc">Rangkaian kegiatan mahasiswa KKN Universitas Pelita Bangsa bersama warga Desa Jayamulya.</p>
+      </div>
+
+      <div class="gallery-grid fade-in">
+        <figure class="gallery-item" data-caption="Kegiatan Gotong Royong warga Desa Jayamulya">
+          <img src="assets/images/galeri-gotong-royong.jpg" alt="Kegiatan Gotong Royong" loading="lazy">
+          <figcaption><i class="fa-solid fa-magnifying-glass-plus"></i> Gotong Royong</figcaption>
+        </figure>
+        <figure class="gallery-item" data-caption="Kegiatan Cat Desa untuk mempercantik fasilitas umum">
+          <img src="assets/images/galeri-cat-desa.jpg" alt="Kegiatan Cat Desa" loading="lazy">
+          <figcaption><i class="fa-solid fa-magnifying-glass-plus"></i> Cat Desa</figcaption>
+        </figure>
+        <figure class="gallery-item" data-caption="Mengajar dan Pojok Baca bersama anak-anak Desa Jayamulya">
+          <img src="assets/images/galeri-mengajar.jpg" alt="Mengajar dan Pojok Baca" loading="lazy">
+          <figcaption><i class="fa-solid fa-magnifying-glass-plus"></i> Mengajar &amp; Pojok Baca</figcaption>
+        </figure>
+        <figure class="gallery-item" data-caption="Sosialisasi Lingkungan dan Keamanan Warga Jayamulya">
+          <img src="assets/images/galeri-sosialisasi.jpg" alt="Sosialisasi Lingkungan dan Keamanan" loading="lazy">
+          <figcaption><i class="fa-solid fa-magnifying-glass-plus"></i> Sosialisasi Lingkungan</figcaption>
+        </figure>
+        <figure class="gallery-item" data-caption="Rapat Tahunan Desa membahas program pembangunan">
+          <img src="assets/images/galeri-rapat-tahunan.jpg" alt="Rapat Tahunan Desa" loading="lazy">
+          <figcaption><i class="fa-solid fa-magnifying-glass-plus"></i> Rapat Tahunan Desa</figcaption>
+        </figure>
+        <figure class="gallery-item" data-caption="Dokumentasi Kegiatan PKK Desa Jayamulya">
+          <img src="assets/images/galeri-pkk.jpg" alt="Dokumentasi Kegiatan PKK" loading="lazy">
+          <figcaption><i class="fa-solid fa-magnifying-glass-plus"></i> Kegiatan PKK</figcaption>
+        </figure>
+        <figure class="gallery-item" data-caption="Kegiatan Posyandu pelayanan kesehatan ibu dan anak">
+          <img src="assets/images/galeri-posyandu.jpg" alt="Kegiatan Posyandu" loading="lazy">
+          <figcaption><i class="fa-solid fa-magnifying-glass-plus"></i> Posyandu</figcaption>
+        </figure>
+      </div>
+    </div>
+  </section>
+
+  <!-- Lightbox modal -->
+  <div class="lightbox" id="lightbox">
+    <button class="lightbox__close" id="lightboxClose" aria-label="Tutup galeri"><i class="fa-solid fa-xmark"></i></button>
+    <button class="lightbox__nav lightbox__prev" id="lightboxPrev" aria-label="Sebelumnya"><i class="fa-solid fa-chevron-left"></i></button>
+    <img src="" alt="" id="lightboxImg">
+    <button class="lightbox__nav lightbox__next" id="lightboxNext" aria-label="Berikutnya"><i class="fa-solid fa-chevron-right"></i></button>
+    <p class="lightbox__caption" id="lightboxCaption"></p>
+  </div>
+
+  <!-- ============ KOLEKSI BUKU ============ -->
+  <section class="section section--tint" id="buku">
+    <div class="container">
+      <div class="section__head fade-in">
+        <span class="eyebrow">Koleksi Digital</span>
+        <h2 class="section__title">Koleksi Buku</h2>
+        <p class="section__desc">Seluruh koleksi mencakup buku pelajaran SD &amp; SMP, PAUD/TK, cerita anak, novel, dan komik. Klik salah satu buku untuk membaca pratinjaunya langsung di halaman ini.</p>
+      </div>
+
+      <div class="book-toolbar fade-in">
+        <div class="book-search">
+          <i class="fa-solid fa-magnifying-glass"></i>
+          <input type="text" id="bookSearch" placeholder="Cari judul atau penulis buku...">
+        </div>
+        <div class="book-filters" id="bookFilters">
+          <button class="filter-chip active" data-filter="semua">Semua</button>
+          <button class="filter-chip" data-filter="sd">SD</button>
+          <button class="filter-chip" data-filter="smp">SMP</button>
+          <button class="filter-chip" data-filter="tk">PAUD/TK</button>
+          <button class="filter-chip" data-filter="anak">Cerita Anak</button>
+          <button class="filter-chip" data-filter="novel">Novel</button>
+          <button class="filter-chip" data-filter="komik">Komik</button>
+        </div>
+      </div>
+
+      <div class="book-status" id="bookStatus" hidden>
+        <i class="fa-solid fa-circle-notch fa-spin"></i> Memuat koleksi buku...
+      </div>
+
+      <div class="book-grid" id="bookGrid" aria-live="polite"></div>
+
+      <p class="book-empty" id="bookEmpty" hidden>Tidak ada buku yang cocok dengan pencarian/filter ini.</p>
+
+      <div class="book-toggle-wrap">
+        <button class="btn btn--outline" id="toggleBooksBtn" hidden>
+          <span id="toggleBooksLabel">Tampilkan Koleksi Lengkap</span>
+          <i class="fa-solid fa-chevron-down" id="toggleBooksIcon"></i>
+        </button>
+      </div>
+    </div>
+  </section>
+
+  <!-- Book detail modal -->
+  <div class="modal" id="bookModal">
+    <div class="modal__overlay" id="bookModalOverlay"></div>
+    <div class="modal__box">
+      <button class="modal__close" id="bookModalClose" aria-label="Tutup"><i class="fa-solid fa-xmark"></i></button>
+      <div class="modal__content" id="bookModalContent"></div>
+    </div>
+  </div>
+
+  <!-- ============ BUKU PROFIL DESA ============ -->
+  <section class="section" id="buku-profil-desa">
+    <div class="container">
+      <div class="section__head fade-in">
+        <span class="eyebrow">Terbitan Desa</span>
+        <h2 class="section__title">Buku Profil Desa Jayamulya</h2>
+        <p class="section__desc">Kenali sejarah, visi misi, dan kegiatan Desa Jayamulya lebih lengkap melalui buku profil resmi desa.</p>
+      </div>
+
+      <div class="pdf-viewer fade-in">
+        <div class="pdf-viewer__frame">
+          <iframe src="assets/books/profil-desa-jayamulya.pdf#toolbar=0&navpanes=0" title="Pratinjau Buku Profil Desa Jayamulya" loading="lazy"></iframe>
+        </div>
+        <div class="pdf-viewer__info">
+          <i class="fa-solid fa-file-pdf pdf-viewer__icon"></i>
+          <h3>Buku Profil Desa Jayamulya</h3>
+          <p>Dokumen resmi berisi visi, misi, dan rekam jejak kegiatan Desa Jayamulya, Kecamatan Serang Baru, Kabupaten Bekasi.</p>
+          <a href="assets/books/profil-desa-jayamulya.pdf" download class="btn btn--primary">
+            <i class="fa-solid fa-download"></i> Unduh PDF
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ LOKASI ============ -->
+  <section class="section section--tint" id="lokasi">
+    <div class="container">
+      <div class="section__head fade-in">
+        <span class="eyebrow">Kunjungi Kami</span>
+        <h2 class="section__title">Lokasi Perpustakaan</h2>
+      </div>
+
+      <div class="lokasi-grid fade-in">
+        <div class="lokasi-map">
+          <iframe
+            src="https://www.google.com/maps?q=Kantor%20Desa%20Jayamulya%2C%20Jl.%20Cendrawasih%2C%20Serang%20Baru%2C%20Bekasi&output=embed"
+            title="Peta Lokasi Perpustakaan Digital Desa Jayamulya"
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade">
+          </iframe>
+        </div>
+        <div class="lokasi-info">
+          <h3><i class="fa-solid fa-location-dot"></i> Alamat</h3>
+          <p>
+            Kantor Desa Jayamulya<br>
+            Jl. Cendrawasih, Desa Jayamulya<br>
+            Kecamatan Serang Baru, Kabupaten Bekasi<br>
+            Jawa Barat 17330, Indonesia
+          </p>
+          <ul class="lokasi-list">
+            <li><i class="fa-solid fa-clock"></i> Senin &ndash; Jumat, 08.00 &ndash; 16.00 WIB</li>
+            <li><i class="fa-solid fa-globe"></i> Akses daring 24 jam melalui website ini</li>
+          </ul>
+          <a href="https://www.google.com/maps?q=Kantor%20Desa%20Jayamulya%2C%20Jl.%20Cendrawasih%2C%20Serang%20Baru%2C%20Bekasi" target="_blank" rel="noopener" class="btn btn--outline">
+            <i class="fa-solid fa-diamond-turn-right"></i> Buka di Google Maps
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<!-- ============ FOOTER ============ -->
+<footer class="footer">
+  <div class="container footer__inner">
+    <div class="footer__brand">
+      <img src="assets/icons/logo.svg" alt="Logo Perpustakaan Digital Jayamulya">
+      <div>
+        <strong>Perpustakaan Digital Serang Baru</strong>
+        <p>Dipersembahkan oleh Desa Jayamulya &mdash; hasil KKN Universitas Pelita Bangsa 2026.</p>
+      </div>
+    </div>
+
+    <div class="footer__col">
+      <h4>Navigasi</h4>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#profil-desa">Profil Desa</a></li>
+        <li><a href="#visi-misi">Visi &amp; Misi</a></li>
+        <li><a href="#galeri">Galeri</a></li>
+        <li><a href="#buku">Buku</a></li>
+        <li><a href="#lokasi">Lokasi</a></li>
+      </ul>
+    </div>
+
+    <div class="footer__col">
+      <h4>Alamat</h4>
+      <p>Kantor Desa Jayamulya<br>Jl. Cendrawasih, Kec. Serang Baru<br>Kab. Bekasi, Jawa Barat 17330</p>
+    </div>
+  </div>
+  <div class="footer__bottom">
+    <p>&copy; <span id="year"></span> Perpustakaan Digital Desa Jayamulya. Seluruh hak cipta dilindungi.</p>
+  </div>
+</footer>
+
+<button class="scroll-top" id="scrollTopBtn" aria-label="Kembali ke atas">
+  <i class="fa-solid fa-arrow-up"></i>
+</button>
+
+<script src="js/main.js"></script>
+</body>
+</html>
