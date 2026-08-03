@@ -4,8 +4,8 @@
 
 :root {
   /* Warna utama */
-  --teal-dark: #0F766E;
-  --teal: #14B8A6;
+  --teal-dark: #0093A8;
+  --teal: #1FEBFF;
   --bg-light: #F8FAFC;
   --white: #FFFFFF;
 
@@ -14,7 +14,7 @@
   --slate: #475569;
   --slate-light: #94A3B8;
   --border: #E2E8F0;
-  --teal-tint: #ECFDFA;
+  --teal-tint: #E5FBFF;
   --amber: #F59E0B;
 
   /* Gradient signature */
