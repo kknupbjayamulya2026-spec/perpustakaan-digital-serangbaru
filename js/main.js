@@ -239,9 +239,10 @@ function initScrollTop() {
    ========================================================= */
 
 const CATEGORY_LABELS = {
+  tk: 'PAUD / TK',  
   sd: 'Pelajaran SD',
   smp: 'Pelajaran SMP',
-  tk: 'PAUD / TK',
+  sma: 'SMA/SMK',
   anak: 'Cerita Anak',
   novel: 'Novel',
   komik: 'Komik',
@@ -250,6 +251,7 @@ const CATEGORY_LABELS = {
 const CATEGORY_ICONS = {
   sd: 'fa-child-reaching',
   smp: 'fa-user-graduate',
+  sma: 'fa-user-graduate',
   tk: 'fa-puzzle-piece',
   anak: 'fa-shapes',
   novel: 'fa-feather',
@@ -350,6 +352,22 @@ const BOOK_LIBRARY = [
   { title: 'Selalu Berhemat Energi', category: 'sd', driveId: '1KGLJbBFsa-_CFuCtsLqk7acLdQdEyng7' },
   { title: 'Tugasku Sehari-hari', category: 'sd', driveId: '1RtskeZC4p-hOjmHMRDzkuW1KW4hJtm_0' },
   { title: 'Udara Bersih Bagi Kesehatan', category: 'sd', driveId: '1F30DssoCEGDEfayEqUqOJN4dc9r2ayFj' },
+   
+// ---------------- SMA / SMK ----------------
+  { title: 'Panduan Guru Animasi', category: 'sma', driveId: '15XQuJ6M2LPTGqShyV9Bvtw5-QhNqzxNW' },
+  { title: 'Pendidikan Agama Buddha dan Budi Pekerti', category: 'sma', driveId: '1cSDskdgCx36Z2BlYafW7Fv_D535YDgqQ' },
+  { title: 'Dasar-Dasar Agriteknologi dan Pengolahan Pertanian', category: 'sma', driveId: '1nhj2l5rBqf02pa-qls2RaFzob0EOyi_d' },
+  { title: 'Dasar-Dasar Teknik Konstruksi Kapal', category: 'sma', driveId: '1nJdYCggbSW4b7o1qK1P7XP8Q1tvJ1mRR' },
+  { title: 'Panduan Guru Ekonomi', category: 'sma', driveId: '1Z8oDgr-v0Rj95ewe2-2vnjry57VuBDBp' },
+  { title: 'Panduan Guru Bahasa Indonesia', category: 'sma', driveId: '19bJZhqSo2x51BX-bkv-ab2soYGLov-kf' },
+  { title: 'Kuliner', category: 'sma', driveId: '1UwwcAxDAckM-uqJkGfuX_ssKfuUtGAGY' },
+  { title: 'Dasar-Dasar Kuliner', category: 'sma', driveId: '1H3K3fIHi7dRX0BTtJl4i0Yy-VEFGQ8uP' },
+  { title: 'Panduan Guru Pendidikan Jasmani, Olahraga, dan Kesehatan', category: 'sma', driveId: '1KAHPsbwfQqA30VZ2DT9xRqCj-8IDlyWS' },
+  { title: 'Panduan Guru Prakarya dan Kewirausahaan : Budi Daya', category: 'sma', driveId: '1S8qhXp41hdZvTXiDnTwTNDbRXA-O90eD' },
+  { title: 'Panduan Guru Prakarya dan Kewirausahaan : Rekayasa', category: 'sma', driveId: '1vAsxk_Qaj3VEZmCmjW4b3BXSiU6saGVo' },
+  { title: 'Panduan Guru Seni Tari', category: 'sma', driveId: '1STJHuMp0dq8TYIfxwCIQtxBMaVQsutHg' },
+  { title: 'Dasar-Dasar Furnitur', category: 'sma', driveId: '134cfOxwyLqT1z4ggdo48RkXLuCi0Df7y' },
+  { title: 'Dasar-Dasar Teknik Geologi Pertambangan', category: 'sma', driveId: '11DXp4sLTPWYMdW8fiPWz013HzggiHpiN' },
 ];
 
 /* Susun objek buku final lengkap dengan seluruh tautan Google Drive yang dibutuhkan */
