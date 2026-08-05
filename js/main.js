@@ -273,6 +273,17 @@ const BOOK_LIBRARY = [
   { title: 'Matematika Kelas 7', category: 'smp', driveId: '1tQQ1vWUK0lflEVR7_WsbrY30wLoLZ8Et' },
   { title: 'Matematika Kelas 8', category: 'smp', driveId: '1HC4oBMRYkQpeTbhlI619sFyUaEhq_CWt' },
   { title: 'Matematika Kelas 9', category: 'smp', driveId: '18ALtnDgHebQOartq5Kq8Y1ZywJzSleEM' },
+  { title: 'Bahasa Indonesia Kelas 7', category: 'smp', driveId: '1uQ_NpiSXEhX80kKfh6BavOUPzcv7nT9l' },
+  { title: 'Bahasa Inggris Kelas 7', category: 'smp', driveId: '14ndPg9dQXuvE5RKnQZLao8y6UpxxpKg2' },
+  { title: 'Matematika Kelas 7', category: 'smp', driveId: '1rZ4vT__gE4Y-MkJ-P7Wx7B_ciIrT7CmH' },
+  { title: 'Bahasa Indonesia Kelas 8', category: 'smp', driveId: '1Ot2PT3lilwDRLDIekG062alffa9RlP57' },
+  { title: 'Bahasa Inggris Kelas 8', category: 'smp', driveId: '1LN4iFUjUkrvfmZUksPDznghXa9zCaLAT' },
+  { title: 'Matematika Kelas 8', category: 'smp', driveId: '1g9HQsJYK3_8HzjFu39rlbcoETO-IdAFr' },
+  { title: 'Bahasa Indonesia Kelas 9', category: 'smp', driveId: '18IKCzyM0jPr6d0YnC9rgC1mUPvRWOIgE' },
+  { title: 'Bahasa Inggris Kelas 9', category: 'smp', driveId: '1zNCxtWNBOJECXKCzFwX_tZdwFRh_pBwb' },
+  { title: 'Matematika Kelas 9', category: 'smp', driveId: '1N0fQdqIxoKg6bqhViVSLYhSt89Iq8iOf' },
+
+
 
   // ---------------- KOMIK ----------------
   { title: 'Bagi Hotspot', category: 'komik', driveId: '1Kz2576XkC6aE6xXkaZU4CPsSbI4iGJMD' },
