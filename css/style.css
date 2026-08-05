@@ -277,7 +277,7 @@ h1, h2, h3, h4 { color: var(--ink); font-weight: 700; line-height: 1.25; }
   position: absolute;
   inset: 0;
   background:
-    linear-gradient(180deg, rgba(6, 30, 28, 0.75) 0%, rgba(6, 34, 32, 0.82) 55%, rgba(4, 24, 22, 0.94) 100%);
+   linear-gradient(180deg, rgba(31, 235, 255, 0.2) 0%, rgba(0, 147, 168, 0.4) 55%, rgba(15, 23, 42, 0.8) 100%);
 }
 .hero__content { position: relative; z-index: 2; max-width: 760px; }
 .hero__title {
