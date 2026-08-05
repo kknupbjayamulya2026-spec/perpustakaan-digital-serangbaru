@@ -200,7 +200,8 @@ h1, h2, h3, h4 { color: var(--ink); font-weight: 700; line-height: 1.25; }
   align-items: center;
   gap: 12px;
 }
-.navbar__logo { width: 100px; height: 42px; border-radius: 10px; flex-shrink: 0; }
+.navbar__logo { width: 42px; height: 42px; flex-shrink: 0; }
+.navbar__logoo { width: 42px; height: 42px; border-radius: 10px; flex-shrink: 0; }
 .navbar__brand-text { display: flex; flex-direction: column; line-height: 1.25; }
 .navbar__brand-text strong {
   font-size: 0.98rem;
